@@ -3,11 +3,12 @@
 
 <head>
     
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" src="script.js"> </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    
 </head>
 
     
@@ -16,19 +17,19 @@
     
 <body>
     
-    
+     
     <div class="view" id="view_left" >
         <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a>White Zinfandel</a></p>
+                <p class="category"><a href="../Whitezin.html">White Zinfandel</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/issues.html">Issues</a></p>
+                <p class="category"><a href="../link/Issues.html">Issues</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/News.html">News</a></p>
+                <p class="category"><a href="../link/News.html">News</a></p>
             </div>
         </div>
         
@@ -94,24 +95,62 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     <div class="vertical_line"></div>
     
     
-    
     <div class="view" id="view_right">
          <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a href="link/Projects.html">Projects</a></p>
+                <p class="category"><a href="Projects.html">Projects</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/Gallery.html">Gallery</a></p>
+                <p class="category"><a>Gallery</a></p>
             </div>
         </div>
         
-        <div class="white_zinfandel">
-            <!--<div class="column1"> <p>White</p> </div>
-            <div class="column1" id="zinfandel"> <p>Zinfandel</p> </div>-->
+        <div class="column4">
+            <div class="column4_2col">
+                <a href="News.html"><img src="http://www.whitezinf.org/cms/wp-content/uploads/2013/09/foto00061.jpg" ></a>
+            </div>
+            <div class="column4_2col_2">
+                <p class="header2_text">Hans Ulrich Obrist & Simon Castets <br>Interview Bill Noonan <br>S/S 2013</p><br>
+                <p class="body_bold">Artist Bill Noonan met with curators Hans Ulrich Obrist and Simon Castets in Melbourne, Australia for the 89plus interviews series to discuss food, chance and immersion circulators.</p>
+            </div>
             
-        </div> 
+            <div class="column4_2col">
+                <img src="http://www.whitezinf.org/cms/wp-content/uploads/2012/11/img1.jpg">
+            </div>
+            <div class="column4_2col_2">
+                <p class="header2_text">Hunger<br>Item Idem<br>F/W 2012</p><br>
+                <p class="body_bold">Conceived as an advertisement campaign for WHITE ZINFANDEL's third issue focused on 'Food Fights', HUNGER is starring world champion & Guinness records owner Takeru Kobayashi, the competitive eating sensation. Directed by CYCY Sanders & with a soundtrack by Michael Magnan.</p>
+            </div>
+            
+            <div class="column4_2col">
+                <img src="http://www.whitezinf.org/cms/wp-content/uploads/2012/11/img3.jpg">
+            </div>
+            <div class="column4_2col_2">
+                <p class="header2_text">Interview: Thomas Demand<br>Friend & Colleague
+<br>F/W 2012</p><br>
+                <p class="body_bold">Thomas Demand sits down with Friend & Colleague's Katya Tylevich to discuss Whitney Houston, Saddam Hussein, and photographic fictions in a video interview for White Zinfandel Issue No. 3. Directed by Alexei Tylevich. Soundtrack by Aids-3D..</p>
+            </div> 
+            
+            <div class="column4_2col">
+                <img src="http://www.whitezinf.org/cms/wp-content/uploads/2012/11/img2.jpg">
+            </div>
+            <div class="column4_2col_2">
+                <p class="header2_text">Rafaël Rozendaal<br>Violent Power (Study)<br> S/S 2012</p><br>
+                <p class="body_bold">TAnimated GIF, 2012</p>
+            </div> 
+            
+            <div class="column4_2col">
+                <img src="http://www.whitezinf.org/cms/wp-content/uploads/2014/10/Screen-Shot-2014-10-06-at-5.12.23-PM-516x291.png">
+            </div>
+            <div class="column4_2col_2">
+                <p class="header2_text">Undervolt & Co.<br>14 Videos<br>S/S 2014</p><br>
+                <p class="body_bold"></p>
+            </div> 
+            
+            <div style="height:50px; width:100px;"></div>
     </div>
+        
     
     
     
@@ -120,5 +159,21 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     
 </body>
     
+
+<script>
+    $("p.projects_title").mouseenter(
+        function(){
+            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
+    });
+    
+    $("p.projects_title").mouseleave(
+        function(){
+            $("#projects_img_hover").css("opacity", "0");
+    });
+    
+    
+
+
+</script>
     
 </html>

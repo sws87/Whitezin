@@ -3,11 +3,12 @@
 
 <head>
     
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" src="script.js"> </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    
 </head>
 
     
@@ -16,19 +17,19 @@
     
 <body>
     
-    
+     
     <div class="view" id="view_left" >
         <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a>White Zinfandel</a></p>
+                <p class="category"><a href="../Whitezin.html">White Zinfandel</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/issues.html">Issues</a></p>
+                <p class="category"><a href="../link/Issues.html">Issues</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/News.html">News</a></p>
+                <p class="category"><a href="../link/News.html">News</a></p>
             </div>
         </div>
         
@@ -85,7 +86,6 @@ The theme of food extends to the <br>launch of every issue, with a <br>curated d
 White Zinfandel is not only a <br>limited edition publication that is <br>carefully curated every issue. It <br>also houses services that include <br>branding, marketing and design <br>consultation. We also concept <br>innovative collaborative projects <br>with other institutions, <br>organizations and brands.</p>
             </div>
         </div>
-        
          
         
         
@@ -94,20 +94,58 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     <div class="vertical_line"></div>
     
     
-    
     <div class="view" id="view_right">
          <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a href="link/Projects.html">Projects</a></p>
+                <p class="category"><a>Projects</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/Gallery.html">Gallery</a></p>
+                <p class="category"><a href="Gallery.html">Gallery</a></p>
             </div>
         </div>
         
-        <div class="white_zinfandel">
-            <!--<div class="column1"> <p>White</p> </div>
+        <div class="column4">
+            <div class="column4_1" id="projects_list" >
+                <a href="Projects_glasshouse.html"><p class="projects_title">GLASS HOUSE X RAFAEL DE <br>CARDENAS <br>X IGNACIO MATTOS<br></p>
+F/W 2013<br><br></a>
+
+<p class="projects_title">LOGAN & SONS X WHITE ZINF<br> STICKY FINGERS<br></p>
+F/W 2012<br><br>
+
+<p class="projects_title">DE NADA <br>ISSUE 3 LAUNCH PARTY<br></p>
+F/W 2012<br><br>
+
+<p class="projects_title">W/ EDITIONS ROUND 3 AT<br> NADA MIAMI <br></p>
+F/W 2012<br><br>
+
+<p class="projects_title">W/ EDITIONS ROUND 2 ELI <br>PING GALLERY<br></p>
+S/S 2012<br><br>
+
+<p class="projects_title">WZ #2 / TV DINNER <br>JACK HANLEY GALLERY <br></p>
+S/S 2012<br><br>
+
+<p class="projects_title">WZ X VARIOUS PROJECTS <br>TV DINNER TRAY<br></p>
+S/S 2012<br><br>
+
+<p class="projects_title">WZ #1 FOOD <br>WOOLWORTH 2011<br></p>
+S/S 2011<br><br>
+
+<p class="projects_title">W/ Editions Round 1<br> W/E 001-015:<br></p>
+F/W 2012<br><br>
+            </div>
+            <div class="column4_2"></div>
+            <div class="column4_2col_2" id="projects_img_hover">
+                <img src="../img/gallery01.jpg">
+                <br><br><p class="header2_text">Glass House X Rafael De <br>Cardenas X Ignacio Mattos</p><br>
+                <p class="body_text">
+Launch of La Grande Bouffe at the Phillip Johnson Glass House with limited edition picnic blankets designed by Rafael de Cardenas, and dishes by Ignacio Mattos.</p>
+            </div>
+            </div>
+                 
+                 
+            <!--
+            <div class="column1"> <p>White</p> </div>
             <div class="column1" id="zinfandel"> <p>Zinfandel</p> </div>-->
             
         </div> 
@@ -120,5 +158,21 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     
 </body>
     
+
+<script>
+    $("p.projects_title").mouseenter(
+        function(){
+            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
+    });
+    
+    $("p.projects_title").mouseleave(
+        function(){
+            $("#projects_img_hover").css("opacity", "0");
+    });
+    
+    
+
+
+</script>
     
 </html>
