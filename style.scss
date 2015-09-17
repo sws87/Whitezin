@@ -1,7 +1,17 @@
+@font-face {
+    font-family: "NeuzeitSLTStd-Book";
+    src: url("fonts/NeuzeitSLTStd-Book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "NeuzeitSLTStd-BookHeavy";
+    src: url("fonts/NNeuzeitSLTStd-BookHeavy.woff") format('woff');
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-family: NeuzeitS;
+    font-family: NeuzeitSLTStd-BookHeavy;
     
         a:link{
                     color:black;
@@ -23,49 +33,49 @@ body{
         }
         .header1{
             font-size: 42px;
-            line-height: 42px;
-            font-weight: 500;
+            line-height: 44px;
+            font-family: NeuzeitSLTStd-Book;
             margin:0;
             margin-top:1.5%;
         }
         .header1_text{
             font-size: 42px;
-            font-weight: 600;
-            line-height: 42px;
+            font-family: NeuzeitSLTStd-BookHeavy;
+            line-height: 44px;
             margin:0;
         }
         .header2_text{
             font-size: 24px;
-            font-weight: 600;
+            font-family: NeuzeitSLTStd-BookHeavy;
             line-height: 25px;
             margin:0;
         }
         .header2{
             font-size: 24px;
-            font-weight: 300;
+            font-family: NeuzeitSLTStd-Book;
             line-height: 25px;
             margin:0;
         }
         .body_title{
             font-size: 18px;
-            font-weight: 600;
+            font-family: NeuzeitSLTStd-BookHeavy;
             line-height: 20px;
             margin:0;
         }
         .body_text{
             font-size: 14px;
             line-height: 18px;
-            font-weight: 300px;
+            font-family: NeuzeitSLTStd-Book;
             margin:0;
         }
         .body_bold{
             font-size: 14px;
             line-height: 18px;
             margin:0;
-            font-weight: 600;
+            font-family: NeuzeitSLTStd-BookHeavy;
         }
         .bold{
-            font-weight: 600;
+            font-family: NeuzeitSLTStd-BookHeavy;
         }
         .info{
             font-size: 11px;
@@ -117,7 +127,7 @@ body{
                 width: 30%;
                 margin-top: 1%;
                 margin-left:1%;
-                
+                font-family: NeuzeitSLTStd-Book;
             
                 a:link{
                     color:black;
@@ -159,6 +169,8 @@ body{
                 margin-top: 1%;
             }*/
             
+        
+                
             .column3_1{
                 margin: 3% 0 4% 4%;
                 width: 28%;
@@ -239,6 +251,8 @@ body{
 
        }
     
+       
+    
        .issues{
            display: inline-flex;
             margin: 0;
@@ -268,6 +282,16 @@ body{
            }
             
        }
+    
+    
+        .column3 :hover{
+            img{
+                opacity: 0.7;
+                transition: 0.2s;
+                -webkit-filter: grayscale(100%);
+                filter:grayscale(100%);
+            }
+        }
             
     
     
@@ -319,7 +343,7 @@ body{
                 width: 45.2%;
                 margin-top: 1%;
                 margin-left:1%;
-                
+                font-family: NeuzeitSLTStd-Book;
                 a:hover{
                     color:lightgray;
                     cursor: pointer;
