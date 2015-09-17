@@ -3,11 +3,12 @@
 
 <head>
     
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" src="script.js"> </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    
 </head>
 
     
@@ -16,19 +17,19 @@
     
 <body>
     
-    
+     
     <div class="view" id="view_left" >
         <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a>White Zinfandel</a></p>
+                <p class="category"><a href="../index.html">White Zinfandel</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/issues.html">Issues</a></p>
+                <p class="category"><a href="issues.html">Issues</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/News.html">News</a></p>
+                <p class="category"><a href="News.html">News</a></p>
             </div>
         </div>
         
@@ -74,8 +75,7 @@
                 NEW YORK, NY 10012<br><br>
 
                 INQUIRIES:<br>
-                <span class="bold">HELLO @ WITHNYC.ORG</span>
-                <br><br>
+                <span class="bold">HELLO @ WITHNYC.ORG</span><br><br>
                 TO SUBSCRIBE DIRECTLY <br>
                 FROM WHITE ZINFANDEL, <br>
                 PLEASE SEND AN INQUIRY TO:  <br>
@@ -88,8 +88,6 @@ W/&ndash;&ndash;&ndash;&ndash;&ndash; Projects
 The theme of food extends to the <br>launch of every issue, with a <br>curated dinner concepted by the <br>reactions of the chef. The dinner <br>itself is an opportunity to create <br>a more immersive artistic <br>experience for the invited <br>community of fine artists, writers, <br>architects, curators and designers.<br><br>
                 
 White Zinfandel is not only a <br>limited edition publication that is <br>carefully curated every issue. It <br>also houses services that include <br>branding, marketing and design <br>consultation. We also concept <br>innovative collaborative projects <br>with other institutions, <br>organizations and brands.</p>
-                
-                
             </div>
         </div>
         
@@ -101,24 +99,28 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     <div class="vertical_line"></div>
     
     
-    
     <div class="view" id="view_right">
          <div class="header">
             <div class="navigation" id="navi1">
-                <p class="category"><a href="link/Projects.html">Projects</a></p>
+                <p class="category"><a href="Projects.html">Projects</a></p>
             </div>
             
             <div class="navigation">
-                <p class="category"><a href="link/Gallery.html">Gallery</a></p>
+                <p class="category"><a href="Gallery.html">Gallery</a></p>
             </div>
         </div>
         
-        <div class="white_zinfandel">
-            <!--<div class="column1"> <p>White</p> </div>
-            <div class="column1" id="zinfandel"> <p>Zinfandel</p> </div>-->
+        <div class="column4">
+            <div class="column4_2col">
+                <p class="header2_text">Hunger<br>Item Idem<br>F/W 2012<br>
+            </div>
+            <div class="column4_2col_2"><iframe src="https://player.vimeo.com/video/54882388" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+            <br><br><p class="body_text" ><span class="bold" >Takeru Kobayashi: Hunger</span></p>
+            </div>
             
-        </div> 
+            <div style="height:50px; width:100px;"></div>
     </div>
+        
     
     
     
@@ -127,5 +129,21 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
     
 </body>
     
+
+<script>
+    $("p.projects_title").mouseenter(
+        function(){
+            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
+    });
+    
+    $("p.projects_title").mouseleave(
+        function(){
+            $("#projects_img_hover").css("opacity", "0");
+    });
+    
+    
+
+
+</script>
     
 </html>
