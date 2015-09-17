@@ -3,7 +3,7 @@
   src: url("fonts/NeuzeitSLTStd-Book.woff") format("woff"); }
 @font-face {
   font-family: "NeuzeitSLTStd-BookHeavy";
-  src: url("fonts/NNeuzeitSLTStd-BookHeavy.woff") format("woff"); }
+  src: url("fonts/NeuzeitSLTStd-BookHeavy") format("woff"); }
 body {
   margin: 0;
   padding: 0;
