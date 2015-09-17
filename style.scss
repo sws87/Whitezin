@@ -72,6 +72,9 @@ body{
             line-height: 13px;
             margin:0;
         }
+        .read{
+            margin-top: 1%;
+        }
         
             
                 
@@ -209,10 +212,18 @@ body{
                     width: 100%;
                 }
             }
-            
-            #news{
-                width:83%;
+            .readmore{
+                margin: 0% 0 2% 3%;
+                width: 76%;
+                min-width: 350px;
+                position: relative;
+                 
+                img{
+                    width: 100%;
+                }
             }
+            
+          
             
             #margin-top0{
                 margin-top: 0;
@@ -222,6 +233,7 @@ body{
                 align-self: flex-end;
                 min-width: 168px;
             }
+            
             
            
 
@@ -320,6 +332,8 @@ body{
             
         }
         
+        
+    
     .column4{
             display: inline-flex;
             margin: 0;
@@ -426,7 +440,7 @@ body{
     }
         
 
-,bubble {
+.bubble {
     display: none;
     position: absolute;
     top:0;

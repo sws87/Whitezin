@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" src="script.js"> </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         
     <script src="script.js"></script>
 </head>
@@ -36,8 +37,13 @@
             <div class="column3_4" id="news">
                 <p class="body_text" > <span class="bold">W/&ndash;&ndash;&ndash; X Syracuse Arch</span> / July 29, 2015</p>
                 <p class="Header1">Gentrification Lab NYC: 7 Stops on the 
-L-Line, is led by Syracuse Architecture Visiting Professors Elma van Boxel and Kristian </p>
+                    L-Line, is led by Syracuse Architecture Visiting Professors Elma van Boxel and Kristian </p><a><p class="body_text read" >Read more</p></a>
             </div>
+            
+                <div class="readmore">
+                    <p class="body_text"><span class="bold">Gentrification Lab NYC is a multi-year design and research studio that intends to reconnect architecture with the economic, social and political realities of the contemporary city. The upcoming exhibition and discussion, Gentrification Lab NYC: 7 Stops on the L-Line, is led by Syracuse Architecture Visiting Professors Elma van Boxel and Kristian Koreman of Rotterdam-New York based architectural firm ZUS and hosted by Syracuse Architecture. The exhibition is designed and curated by our very own Jiminie Ha and the team at With Projects, Inc. Join us! WHEN: Friday, July 31, 6:00pm—9:00pm. WHERE: Van Alen Institute, 30 W 22nd Street, New York, NY. WHY: Because it’s important.</span></p>
+                
+                </div>
             
             <div class="column3_4" id="news">
                 <p class="body_text"> <span class="bold">Artist Spotlight: Letha Wilson</span> / July 27, 2015</p>
@@ -97,14 +103,15 @@ L-Line, is led by Syracuse Architecture Visiting Professors Elma van Boxel and K
             
             <div class="column4_2col">
                 <p class=body_text>
-                    <span class="bold">HANS ULRICH & SIMON<br></span>
+                    <span class="bold">&nbsp;&nbsp;&nbsp;&nbsp;HANS ULRICH & SIMON<br></span>
 You have been working in restaurants as a day job for a few years now. Tell us about that experience.<br><br>
-                    <span class="bold">BILL<br></span>
+                    <span class="bold">&nbsp;&nbsp;&nbsp;&nbsp;BILL<br></span>
                     It revealed to me the complex organizational systems, of both the people and the utilities required that operate throughout culinary infrastructure, and how such combinations of individuals and supports of the setting are organized for efficiency, high performance and speed. Moreover, it assists in understanding how certain factors contribute to the formation of the archetypal ‘insane chef’. I feel as though the high-pressure mantra of ‘the push’ is significant, as a driving force, which necessitates a continual challenge against perceived physical limitations. With a longstanding interest in technology, the specificity of a gastronomic context hosted a keen study of specialized culinary equipment, obscure alchemic cooking methods and to what ends these are applied in high-end restaurants. I think also my childhood obsession with gizmos and gadgets has affected how I deal with extremity of gastronomic culture in my work—fixating on specifics, deconstructing mechanisms and then recreating them through a ‘hack’ methodology has been the kind of curiosity which forms the base for several of my works. For example, in learning about sous vide, I built an immersion circulator using an aquarium bubbler and a fish tank temperature controller. More recently though, after working 10 days at a ramen pop-up venue, I became interested in this idea of the experience economy and the particular kind of hype attributed to transient businesses and gastronomic settings. Perhaps too, the hype surrounding the ramen pop-up, and around gastronomic culture in general for me seems to operate similarly to the early stages of Modernism—as opportunities for the ‘new’, ‘exciting’ and ‘memorable’.<br><br>
  
-                    <span class="bold">HANS ULRICH & SIMON<br></span>
+                    <span class="bold">&nbsp;&nbsp;&nbsp;&nbsp;HANS ULRICH & SIMON<br></span>
                     How do you relate to the work of artists like Daniel Spoerri, Rirkrit Tiravanija, etc? And the restaurant experiments of Gordon Matta-Clark, Allen Ruppersberg, etc? Would you open your own restaurant?<br><br>
  
+                    
                     <span class="bold">BILL<br></span>
                     I feel as though there are similarities, but I tend to see my work as the anti-social younger brother. For example Tiravanija’s work from the onset aims to generate social interaction and foster human relationships. However I feel like I’m trying to work towards a one-on-one psychological engagement with the viewer, playing on the potential to trigger a sense of nostalgia or flashes of memory on a level that is unique to each individual, which is, moreover, a strategy used in contemporary gastronomy. Although, aesthetically, I am fond of his ad hoc and temporary set ups, as it feeds into my interest in growing gastronomic trends such as pop-up shops, food trucks, etc, which are all pretty commonplace within Melbourne. In some ways too, I feel like Matta-Clark acts as a precursor to these trends. The performativity of something like Matta-Clark’s restaurant ‘Food’ is particularly interesting in the way that its ideas have perpetuated through concept restaurants like El Bulli, The Fat Duck and Alinea, which incorporate performance acts like cooking tableside, the use of dry ice and liquid nitrogen within the restaurant setting. In this sense, I feel it has become a new kind of theatre for the new bourgeois, in that it has a rehearsed practice for a ‘spectacular’ and ‘magical’ experience. I also like Matta-Clark’s idea of making inedible food and I feel like it correlates in an interesting way with the way contemporary gastronomy has shifted the focus towards the conceptual and the philosophical in presenting their dishes, to the point where complete inedibility seems plausible. But to what extent does this matter? I feel reading Matta-Clark points to such an absurdity present now in gastronomy<br><br><br>
                 
@@ -135,7 +142,15 @@ You have been working in restaurants as a day job for a few years now. Tell us a
     });
     
         
-    
+    $(document).ready(function(){
+      $('.readmore').hide();
+    });
+        
+    $( ".read" ).click(function() {
+      $( ".readmore" ).slideToggle( "slow" );
+    });
+        
+</script>
         
 
     

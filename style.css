@@ -32,19 +32,24 @@ body {
     font-weight: 600;
     line-height: 25px;
     margin: 0; }
+  body .header2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0; }
   body .body_title {
     font-size: 18px;
     font-weight: 600;
     line-height: 20px;
     margin: 0; }
   body .body_text {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
     font-weight: 300px;
     margin: 0; }
   body .body_bold {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
     margin: 0;
     font-weight: 600; }
   body .bold {
@@ -53,6 +58,8 @@ body {
     font-size: 11px;
     line-height: 13px;
     margin: 0; }
+  body .read {
+    margin-top: 1%; }
 
 .view {
   height: 100%;
@@ -139,6 +146,20 @@ body {
       min-width: 350px;
       position: relative; }
       #view_left .column3 .column3_3col img {
+        width: 100%; }
+    #view_left .column3 .column3_4 {
+      margin: 3% 0 2% 3%;
+      width: 76%;
+      min-width: 350px;
+      position: relative; }
+      #view_left .column3 .column3_4 img {
+        width: 100%; }
+    #view_left .column3 .readmore {
+      margin: 0% 0 2% 3%;
+      width: 76%;
+      min-width: 350px;
+      position: relative; }
+      #view_left .column3 .readmore img {
         width: 100%; }
     #view_left .column3 #margin-top0 {
       margin-top: 0; }
@@ -256,5 +277,13 @@ body {
     transition: 0.3s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
+
+.bubble {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background: blue; }
 
 /*# sourceMappingURL=style.css.map */
