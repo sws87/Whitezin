@@ -18,6 +18,47 @@
 <body>
     
      
+    <div class="view" id="view_left" >
+        <div class="header">
+            <div class="navigation" id="navi1">
+                <p class="category"><a href="../index.html">White Zinfandel</a></p>
+            </div>
+            
+            <div class="navigation">
+                <p class="category"><a href="issues.html">Issues</a></p>
+            </div>
+            
+            <div class="navigation">
+                <p class="category"><a href="News.html">News</a></p>
+            </div>
+        </div>
+        
+        <div class="column3">
+            <div class="column3_3col">
+                <img src="../img/issue01.jpg">
+            </div>
+                
+            <div class="column3_1">
+                <p class="body_bold"><br><br><br>Cover art with Forest Young, Blush Davide Balula, Interrupting Words with Burp Sounds<br><br>
+Event sponsored by: Alexander Hamilton Vodka, Cooper Hewitt, Good Company, Paloma Powers.<br><br>
+Patrons: Kwaw de Graft-Johnson, Paloma Powers Special thanks: Fanny Karst, Yang Li.<br><br>
+Corrections: Fried Chicken, Twinkies & Soda / Jennifer Jacquet (Pg: 78)<br><br>
+“Even the caves of southeast Asia aren’t safe from this bipedal hominid who will eat nests made from swiftlet saliva right out from under the eggs. Oh, and the next nest that swift builds with spit? We’ll eat that, too.”</p>
+            </div>
+            
+            <div class="column3_2col">
+                <p class="header2_text">Issue V: Shame&nbsp;&nbsp;&nbsp; <a href="http://shop.newdistributionhouse.com/products/white-zinfandel-5" target="_blank"><input type="submit" name="submit" value="B U Y" id="submit" /></a> </p> 
+                <p class="header2"><br>The ortolan has been described to be the most decadent, rare and precious meal one could experience in a lifetime. The mythic ortolan gained fame when Fracnois Mitterand had them specially prepared for his last meal. The traditional way to eat the bird is to cover your head with a napkin to  “shield your shame from God.” This custom fascinated me, how this delicacy required hidden consumption due to the diner’s ignominy. However, in another region of the world, the ortolan, otherwise known as bul-bul in the Middle East, is not consumed in the same way. There is no shame in the act.</p>
+
+            </div>
+        </div>
+        
+         
+        
+        
+    </div>
+    
+    <div class="vertical_line"></div>
     
     
     <div class="view" id="view_right">
@@ -33,7 +74,7 @@
         
         <div class="column4">
             <div class="column4_2col">
-                <a href="Gallery_Hans.html"><img src="http://www.whitezinf.org/cms/wp-content/uploads/2013/09/foto00061.jpg" ></a>
+                <a href="News.html"><img src="http://www.whitezinf.org/cms/wp-content/uploads/2013/09/foto00061.jpg" ></a>
             </div>
             <div class="column4_2col_2">
                 <p class="header2_text">Hans Ulrich Obrist & Simon Castets <br>Interview Bill Noonan <br>S/S 2013</p><br>
@@ -86,7 +127,15 @@
     
 
 <script>
+    $("p.projects_title").mouseenter(
+        function(){
+            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
+    });
     
+    $("p.projects_title").mouseleave(
+        function(){
+            $("#projects_img_hover").css("opacity", "0");
+    });
     
     
 

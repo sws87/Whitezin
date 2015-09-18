@@ -8,9 +8,12 @@
     src: url("fonts/NeuzeitSLTStd-BookHeavy.woff") format('woff');
 }
 
+
+
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
         a:link{
                     color:black;
@@ -94,11 +97,16 @@ body{
 
 .view{
     height: 100%;
-    width: 50%;
     float: left;
-    
+    width: 50%;
 }
 
+
+.wrap{
+    height: 100%;
+    float: left;
+    width: 50%;
+}
 .vertical_line{
     float: left;
     width: 2px;
@@ -108,8 +116,6 @@ body{
     
     
 #view_left{
-    width: 50%;
-    height: 100%;
     overflow: scroll;
 
         .header{
@@ -361,7 +367,6 @@ body{
 
 
 #view_right{
-    width: 49.8%;
     height: 100%;
     overflow: scroll;
 
@@ -527,4 +532,10 @@ body{
     background:blue;
 }
 
-        
+iframe{
+    width: 200%;
+    height: 100%;
+}
+
+
+
