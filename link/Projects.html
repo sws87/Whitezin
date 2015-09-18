@@ -107,11 +107,11 @@ White Zinfandel is not only a <br>limited edition publication that is <br>carefu
         
         <div class="column4">
             <div class="column4_1" id="projects_list" >
-                <a href="Projects_glasshouse.html"><p class="projects_title">GLASS HOUSE WITH<br> RAFAEL DE CARDENAS <br>& IGNACIO MATTOS<br></p>
+               <a href="Projects_glasshouse.html"><p class="projects_title" id="project01"> GLASS HOUSE WITH<br> RAFAEL DE CARDENAS <br>& IGNACIO MATTOS<br></p>
 F/W 2013<br><br></a>
 
-<p class="projects_title">LOGAN & SONS X WHITE ZINF<br> STICKY FINGERS<br></p>
-F/W 2012<br><br>
+<a href="Projects_logan.html"><p class="projects_title" id="project02">LOGAN & SONS X WHITE ZINF<br> STICKY FINGERS<br></p>
+F/W 2012<br><br></a>
 
 <p class="projects_title">DE NADA <br>ISSUE 3 LAUNCH PARTY<br></p>
 F/W 2012<br><br>
@@ -135,21 +135,25 @@ S/S 2011<br><br>
 F/W 2012<br><br>
             </div>
             <div class="column4_2"></div>
-            <div class="column4_2col_2" id="projects_img_hover">
-                <img src="../img/gallery01.jpg">
-                <br><br><p class="header2_text">Glass House with<br> Rafael De Cardenas <br>& Ignacio Mattos</p><br>
-                <p class="body_text">
-Launch of La Grande Bouffe at the Phillip Johnson Glass House with limited edition picnic blankets designed by Rafael de Cardenas, and dishes by Ignacio Mattos.</p>
-            </div>
-            </div>
-                 
-                 
-            <!--
-            <div class="column1"> <p>White</p> </div>
-            <div class="column1" id="zinfandel"> <p>Zinfandel</p> </div>-->
+        
+            <div class="column4_2col_2">
+                <div class="projects_img_hover" id="projects_img01" style="z-index:1;">
+                    <img src="../img/gallery01.jpg">
+                    <br><br><p class="header2_text">Glass House with<br> Rafael De Cardenas <br>& Ignacio Mattos</p><br>
+                    <p class="body_text">
+    Launch of La Grande Bouffe at the Phillip Johnson Glass House with limited edition picnic blankets designed by Rafael de Cardenas, and dishes by Ignacio Mattos.</p>
+                </div>
+
+                <div class="projects_img_hover" id="projects_img02" style="z-index:10;">
+                    <img src="http://www.whitezinf.org/cms/wp-content/uploads/2013/01/Screen-Shot-2013-01-17-at-11.22.48-AM.png">
+                    <br><br><p class="header2_text">LOGAN & SONS X WHITE ZINF<br> STICKY FINGERS</p><br>
+                    <p class="body_text">
+    Launch of La Grande Bouffe at the Phillip Johnson Glass House with limited edition picnic blankets designed by Rafael de Cardenas, and dishes by Ignacio Mattos.</p>
+                </div>
             
-        </div> 
-    </div>
+          
+            
+        </div>
     
     
     
@@ -160,17 +164,31 @@ Launch of La Grande Bouffe at the Phillip Johnson Glass House with limited editi
     
 
 <script>
-    $("p.projects_title").mouseenter(
+ 
+    
+    $("p#project01").mouseenter(
         function(){
-            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
+            $("#projects_img01").css("opacity", "1").css("transition","0.5sec");
     });
     
-    $("p.projects_title").mouseleave(
+    $("p#project01").mouseleave(
         function(){
-            $("#projects_img_hover").css("opacity", "0");
+            $("#projects_img01").css("opacity", "0");
     });
     
     
+    
+       $("p#project02").mouseenter(
+        function(){
+            $("#projects_img02").css("opacity", "1").css("transition","0.5sec");
+    });
+    
+    $("p#project02").mouseleave(
+        function(){
+            $("#projects_img02").css("opacity", "0");
+    });
+ 
+
 
 
 </script>

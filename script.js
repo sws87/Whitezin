@@ -1,3 +1,5 @@
+
+
 /*$(document).ready(function(){
     $('a').click(function(){
         $('html, body').animate({
@@ -12,15 +14,6 @@
 
 
 
-$("p.projects_title").mouseenter(
-        function(){
-            $("#projects_img_hover").css("opacity", "1").css("transition","0.5sec");
-    });
-    
-    $("p.projects_title").mouseleave(
-        function(){
-            $("#projects_img_hover").css("opacity", "0");
-    });
 
 
 
