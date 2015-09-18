@@ -367,7 +367,6 @@ body{
 
 
 #view_right{
-    height: 100%;
     overflow: scroll;
 
         .header{
@@ -543,4 +542,9 @@ iframe.video{
     height: 50%;
 }
 
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
 
