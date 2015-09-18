@@ -286,10 +286,12 @@ body {
       #view_right .column4 .column4_4col img {
         width: 100%; }
     #view_right .column4 #projects_list {
-      letter-spacing: 0.7; }
+      letter-spacing: 0.7;
+      font-family: NeuzeitSLTStd-Book; }
     #view_right .column4 .projects_title {
       font-weight: 600;
-      margin: 0; }
+      margin: 0;
+      font-family: NeuzeitSLTStd-BookHeavy; }
     #view_right .column4 .projects_img_hover {
       top: 0;
       left: 0;
