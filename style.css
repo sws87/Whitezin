@@ -162,7 +162,7 @@ body {
       #view_left .column3 .column3_4 img {
         width: 100%; }
     #view_left .column3 .readmore {
-      margin: 0% 0 2% 3%;
+      margin: 0% 0 2% 4%;
       width: 76%;
       min-width: 350px;
       position: relative; }
@@ -203,6 +203,16 @@ body {
     font-family: NeuzeitSLTStd-Book;
     font-size: 14px;
     vertical-align: 5px; }
+  #view_left #submit:hover {
+    opacity: 0.5; }
+  #view_left .read {
+    background-color: white;
+    border: none;
+    color: black;
+    height: 20px;
+    cursor: pointer;
+    font-family: NeuzeitSLTStd-Book;
+    font-size: 14px; }
   #view_left #submit:hover {
     opacity: 0.5; }
   #view_left .column3 :hover img {
