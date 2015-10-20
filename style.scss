@@ -131,7 +131,7 @@ body{
             .navigation{
                 width: 30%;
                 margin-top: 1%;
-                margin-left:1%;
+                margin-left:2%;
                 font-family: NeuzeitSLTStd-Book;
             
                 a:link{
@@ -178,7 +178,7 @@ body{
         
                 
             .column3_1{
-                margin: 35px 0 4% 4%;
+                margin: 35px 4% 4% 4%;
                 width: 28%;
                 min-width: 250px;
                 position: relative;
@@ -189,7 +189,7 @@ body{
                 
             }
             .column3_2{
-                margin: 35px 0 4% 3%;
+                margin: 35px 4% 4% 0;
                 width: 28%;
                 
                 min-width: 250px;
@@ -200,8 +200,8 @@ body{
                 }
             }
             .column3_2col{
-                margin: 35px 0 4% 3%;
-                width: 60%;
+                margin: 35px 0 4% 0;
+                width: 59%;
                 min-width: 350px;
                 position: relative;
                  
