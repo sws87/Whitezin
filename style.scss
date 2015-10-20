@@ -95,11 +95,6 @@ body{
 }
 
 
-.view{
-    height: 100%;
-    float: left;
-    width: 50%;
-}
 
 
 .wrap{
@@ -117,6 +112,9 @@ body{
     
 #view_left{
     overflow: scroll;
+    height: 100%;
+    float: left;
+    width: 50%;
 
         .header{
             width: inherit;
@@ -165,10 +163,11 @@ body{
         .column3{
             display: inline-flex;
             margin: 0;
-            margin-top:7%;
             width:100%;
             align-items: flex-start;
             flex-wrap: wrap;
+            position: relative;
+            top:60px;
 
            /* .column3{
                 width: 30%;
@@ -179,7 +178,7 @@ body{
         
                 
             .column3_1{
-                margin: 3% 0 4% 4%;
+                margin: 35px 0 4% 4%;
                 width: 28%;
                 min-width: 250px;
                 position: relative;
@@ -190,7 +189,7 @@ body{
                 
             }
             .column3_2{
-                margin: 3% 0 4% 3%;
+                margin: 35px 0 4% 3%;
                 width: 28%;
                 
                 min-width: 250px;
@@ -201,7 +200,7 @@ body{
                 }
             }
             .column3_2col{
-                margin: 3% 0 4% 3%;
+                margin: 35px 0 4% 3%;
                 width: 60%;
                 min-width: 350px;
                 position: relative;
@@ -211,7 +210,7 @@ body{
                 }
             }
             .column3_3col{
-                margin: 3% 0 2% 3%;
+                margin: 35px 0 2% 3%;
                 width: 92%;
                 min-width: 350px;
                 position: relative;
@@ -222,7 +221,7 @@ body{
             }
             
             .column3_4{
-                margin: 3% 0 2% 4%;
+                margin: 35px 0 2% 4%;
                 width: 76%;
                 min-width: 350px;
                 position: relative;
@@ -366,8 +365,14 @@ body{
 
 
 
-#view_right{
+.view_right{
     overflow: scroll;
+    height: 100%;
+    float: left;
+    width: 50%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
 
         .header{
             width: inherit;
@@ -379,12 +384,14 @@ body{
             position: fixed;
             z-index: 100;
             background-color: rgba(255,255,255,0.9);
+            float:left;
+            
                      
             
-            .navigation{
-                width: 45.2%;
+            .navigation2{
+                width: 45%;
                 margin-top: 1%;
-                margin-left:1%;
+                margin-left:2%;
                 font-family: NeuzeitSLTStd-Book;
                 a:hover{
                     color:lightgray;
@@ -403,10 +410,12 @@ body{
     .column4{
             display: inline-flex;
             margin: 0;
-            margin-top:7%;
             width:100%;
             align-items: flex-start;
             flex-wrap: wrap;
+            float: left;
+            position: relative;
+            top:60px;
 
            /* .column3{
                 width: 30%;
@@ -415,8 +424,8 @@ body{
             }*/
             
             .column4_1{
-                margin: 3% 0 4% 4%;
-                width: 21%;
+                margin: 35px 0 4% 4%;
+                width: 22%;
                 min-width: 150px;
                 position: relative;
                 font-size: 0.75em;
@@ -424,8 +433,8 @@ body{
             }
         
             .column4_2{
-                margin: 3% 0 4% 2%;
-                width: 21%;
+                margin: 35px 0 4% 1%;
+                width: 22%;
                 min-width: 150px;
                 position: relative;
                 font-size: 0.75em;
@@ -435,8 +444,8 @@ body{
                 
             }
             .column4_2col{
-                margin: 3% 0 0% 4%;
-                width: 43%;
+                margin: 35px 0 0% 4%;
+                width: 45%;
                 min-width: 300px;
                 position: relative;
                 font-size: 0.75em;
@@ -447,8 +456,8 @@ body{
                 }
             }
             .column4_2col_2{
-                margin: 3% 0 0% 3%;
-                width: 44%;
+                margin: 35px 0 0% 2%;
+                width: 45%;
                 min-width: 300px;
                 position: relative;
                 font-size: 0.75em;
@@ -459,7 +468,7 @@ body{
                 }
             }
             .column4_4col{
-                margin: 3% 0 4% 4%;
+                margin: 35px 0 4% 4%;
                 width: 92%;
                 position: relative;
                 font-size: 0.75em;

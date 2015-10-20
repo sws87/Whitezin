@@ -68,11 +68,6 @@ body {
   body .read {
     margin-top: 1%; }
 
-.view {
-  height: 100%;
-  float: left;
-  width: 50%; }
-
 .wrap {
   height: 100%;
   float: left;
@@ -85,7 +80,10 @@ body {
   background-color: black; }
 
 #view_left {
-  overflow: scroll; }
+  overflow: scroll;
+  height: 100%;
+  float: left;
+  width: 50%; }
   #view_left .header {
     width: inherit;
     border-bottom: 2px black solid;
@@ -120,24 +118,25 @@ body {
   #view_left .column3 {
     display: inline-flex;
     margin: 0;
-    margin-top: 7%;
     width: 100%;
     align-items: flex-start;
     flex-wrap: wrap;
+    position: relative;
+    top: 60px;
     /* .column3{
          width: 30%;
          margin-left: 1%;
          margin-top: 1%;
      }*/ }
     #view_left .column3 .column3_1 {
-      margin: 3% 0 4% 4%;
+      margin: 35px 0 4% 4%;
       width: 28%;
       min-width: 250px;
       position: relative; }
       #view_left .column3 .column3_1 img {
         width: 100%; }
     #view_left .column3 .column3_2 {
-      margin: 3% 0 4% 3%;
+      margin: 35px 0 4% 3%;
       width: 28%;
       min-width: 250px;
       position: relative;
@@ -145,21 +144,21 @@ body {
       #view_left .column3 .column3_2 img {
         width: 100%; }
     #view_left .column3 .column3_2col {
-      margin: 3% 0 4% 3%;
+      margin: 35px 0 4% 3%;
       width: 60%;
       min-width: 350px;
       position: relative; }
       #view_left .column3 .column3_2col img {
         width: 100%; }
     #view_left .column3 .column3_3col {
-      margin: 3% 0 2% 3%;
+      margin: 35px 0 2% 3%;
       width: 92%;
       min-width: 350px;
       position: relative; }
       #view_left .column3 .column3_3col img {
         width: 100%; }
     #view_left .column3 .column3_4 {
-      margin: 3% 0 2% 4%;
+      margin: 35px 0 2% 4%;
       width: 76%;
       min-width: 350px;
       position: relative; }
@@ -225,9 +224,14 @@ body {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
 
-#view_right {
-  overflow: scroll; }
-  #view_right .header {
+.view_right {
+  overflow: scroll;
+  height: 100%;
+  float: left;
+  width: 50%;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+  .view_right .header {
     width: inherit;
     border-bottom: 2px black solid;
     margin: 0;
@@ -236,77 +240,80 @@ body {
     font-size: 14px;
     position: fixed;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.9); }
-    #view_right .header .navigation {
-      width: 45.2%;
+    background-color: rgba(255, 255, 255, 0.9);
+    float: left; }
+    .view_right .header .navigation2 {
+      width: 45%;
       margin-top: 1%;
-      margin-left: 1%;
+      margin-left: 2%;
       font-family: NeuzeitSLTStd-Book; }
-      #view_right .header .navigation a:hover {
+      .view_right .header .navigation2 a:hover {
         color: lightgray;
         cursor: pointer; }
-    #view_right .header #navi1 {
+    .view_right .header #navi1 {
       margin-left: 4%; }
-  #view_right .column4 {
+  .view_right .column4 {
     display: inline-flex;
     margin: 0;
-    margin-top: 7%;
     width: 100%;
     align-items: flex-start;
     flex-wrap: wrap;
+    float: left;
+    position: relative;
+    top: 60px;
     /* .column3{
          width: 30%;
          margin-left: 1%;
          margin-top: 1%;
      }*/ }
-    #view_right .column4 .column4_1 {
-      margin: 3% 0 4% 4%;
-      width: 21%;
+    .view_right .column4 .column4_1 {
+      margin: 35px 0 4% 4%;
+      width: 22%;
       min-width: 150px;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
-    #view_right .column4 .column4_2 {
-      margin: 3% 0 4% 2%;
-      width: 21%;
+    .view_right .column4 .column4_2 {
+      margin: 35px 0 4% 1%;
+      width: 22%;
       min-width: 150px;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
-    #view_right .column4 .column4_2col {
-      margin: 3% 0 0% 4%;
-      width: 43%;
+    .view_right .column4 .column4_2col {
+      margin: 35px 0 0% 4%;
+      width: 45%;
       min-width: 300px;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
-      #view_right .column4 .column4_2col img {
+      .view_right .column4 .column4_2col img {
         width: 100%; }
-    #view_right .column4 .column4_2col_2 {
-      margin: 3% 0 0% 3%;
-      width: 44%;
+    .view_right .column4 .column4_2col_2 {
+      margin: 35px 0 0% 2%;
+      width: 45%;
       min-width: 300px;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
-      #view_right .column4 .column4_2col_2 img {
+      .view_right .column4 .column4_2col_2 img {
         width: 100%; }
-    #view_right .column4 .column4_4col {
-      margin: 3% 0 4% 4%;
+    .view_right .column4 .column4_4col {
+      margin: 35px 0 4% 4%;
       width: 92%;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
-      #view_right .column4 .column4_4col img {
+      .view_right .column4 .column4_4col img {
         width: 100%; }
-    #view_right .column4 #projects_list {
+    .view_right .column4 #projects_list {
       letter-spacing: 0.7;
       font-family: NeuzeitSLTStd-Book; }
-    #view_right .column4 .projects_title {
+    .view_right .column4 .projects_title {
       font-weight: 600;
       margin: 0;
       font-family: NeuzeitSLTStd-BookHeavy; }
-    #view_right .column4 .projects_img_hover {
+    .view_right .column4 .projects_img_hover {
       top: 0;
       left: 0;
       margin-left: -1%;
@@ -314,14 +321,14 @@ body {
       position: absolute;
       font-size: 0.75em;
       line-height: 16px; }
-      #view_right .column4 .projects_img_hover img {
+      .view_right .column4 .projects_img_hover img {
         width: 100%; }
-    #view_right .column4 #projects_detail_title {
+    .view_right .column4 #projects_detail_title {
       margin: 0% 0 4% 4%; }
-    #view_right .column4 #projects_detail_des {
+    .view_right .column4 #projects_detail_des {
       margin: 0% 0 4% 3%;
       width: 44%; }
-  #view_right .column4 :hover img {
+  .view_right .column4 :hover img {
     transition: 0.3s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
