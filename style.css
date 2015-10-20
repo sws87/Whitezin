@@ -293,7 +293,7 @@ body {
         width: 100%; }
     #view_right .column4 .column4_4col {
       margin: 3% 0 4% 4%;
-      width: 90%;
+      width: 92%;
       position: relative;
       font-size: 0.75em;
       line-height: 16px; }
@@ -344,6 +344,6 @@ iframe.video {
 
 @media screen and (max-width: 1000px) {
   body {
-    background-color: lightblue; } }
+    background-color: none; } }
 
 /*# sourceMappingURL=style.css.map */
