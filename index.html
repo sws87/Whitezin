@@ -29,7 +29,7 @@
     
     
     <div class="wrap" style="width:49.8%">
-         <iframe src="link/Projects.html" frameBorder="0">
+         <iframe id="iframe_right" src="link/Projects.html" frameBorder="0">
         </iframe>
     </div>
     
@@ -39,6 +39,17 @@
     
     
 </body>
+    
+    
+    <script>
+    $(document).ready(function(){
+    $('#frame_right').load(function(){
+        $('#frame_right').contents().find('body').html('link/Projects.html');
+    });
+});
+    </script>
+    
+    
     
     
 </html>
