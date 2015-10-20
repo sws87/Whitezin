@@ -245,6 +245,7 @@ body {
       width: 45%;
       margin-top: 1%;
       margin-left: 2%;
+      z-index: 1000;
       font-family: NeuzeitSLTStd-Book; }
       .view_right .header .navigation2 a:hover {
         color: lightgray;
@@ -349,8 +350,6 @@ iframe.video {
   height: 50%; }
 
 @media screen and (max-width: 1500px) {
-  body .category {
-    font-size: 12px; }
   body .header1 {
     font-size: 32px;
     line-height: 34px;
