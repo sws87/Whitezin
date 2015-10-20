@@ -349,6 +349,8 @@ iframe.video {
   height: 50%; }
 
 @media screen and (max-width: 1500px) {
+  body .category {
+    font-size: 12px; }
   body .header1 {
     font-size: 32px;
     line-height: 34px;
