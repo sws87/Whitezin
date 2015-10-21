@@ -557,6 +557,11 @@ iframe.video{
 
 @media screen and (max-width: 1500px) {
     body {
+        
+        .category{
+            font-size:14px;
+        }
+        
         .header1{
             font-size: 32px;
             line-height: 34px;
@@ -564,19 +569,71 @@ iframe.video{
             margin:0;
             margin-top:1.5%;
         }
-        
+        .header1_text{
+            font-size: 32px;
+            font-family: NeuzeitSLTStd-BookHeavy;
+            line-height: 34px;
+            margin:0;
+        }
         .header2_text{
             font-size: 18px;
             font-family: NeuzeitSLTStd-BookHeavy;
             line-height: 20px;
             margin:0;
         }
+        .header2{
+            font-size: 24px;
+            font-family: NeuzeitSLTStd-Book;
+            line-height: 25px;
+            margin:0;
+        }
+        .body_title{
+            font-size: 18px;
+            font-family: NeuzeitSLTStd-BookHeavy;
+            line-height: 20px;
+            margin:0;
+        }
+        .body_text{
+            font-size: 13px;
+            line-height: 17px;
+            font-family: NeuzeitSLTStd-Book;
+            margin:0;
+        }
+        .body_bold{
+            font-size: 13px;
+            line-height: 17px;
+            margin:0;
+            font-family: NeuzeitSLTStd-BookHeavy;
+        }
+        .bold{
+            font-family: NeuzeitSLTStd-BookHeavy;
+        }
+        .info{
+            font-size: 11px;
+            line-height: 13px;
+            margin:0;
+            font-family: NeuzeitSLTStd-Book;
+        }
+        .read{
+            margin-top: 1%;
+        }
+        
     }
     
-    
-    
-    
-    
+  
     
 }
 
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+      
+      
+      
+      
+      
+}
