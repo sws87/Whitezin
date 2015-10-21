@@ -359,7 +359,7 @@ iframe.video {
     line-height: 17px;
     margin: 0;
     font-family: NeuzeitSLTStd-BookHeavy; } }
-@media screen and (max-width: 1500px) {
+@media screen and (min-device-width: 1281px) and (max-width: 1500px) {
   body .category {
     font-size: 14px; }
   body .header1 {
@@ -389,13 +389,13 @@ iframe.video {
     line-height: 20px;
     margin: 0; }
   body .body_text {
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 15px;
     font-family: NeuzeitSLTStd-Book;
     margin: 0; }
   body .body_bold {
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 15px;
     margin: 0;
     font-family: NeuzeitSLTStd-BookHeavy; }
   body .bold {
@@ -447,7 +447,7 @@ iframe.video {
     line-height: 16px; }
     body .view_right .column4 .column4_2col_2 img {
       width: 100%; } }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1290px) {
   body .view_right .column4 {
     display: inline-flex;
     margin: 0;

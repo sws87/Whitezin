@@ -575,7 +575,7 @@ iframe.video{
 
 
 
-@media screen and (max-width: 1500px) {
+@media screen and (min-device-width: 1281px) and (max-width: 1500px) {
     body {
         
         .category{
@@ -614,14 +614,14 @@ iframe.video{
             margin:0;
         }
         .body_text{
-            font-size: 13px;
-            line-height: 16px;
+            font-size: 12px;
+            line-height: 15px;
             font-family: NeuzeitSLTStd-Book;
             margin:0;
         }
         .body_bold{
-            font-size: 13px;
-            line-height: 16px;
+            font-size: 12px;
+            line-height: 15px;
             margin:0;
             font-family: NeuzeitSLTStd-BookHeavy;
         }
@@ -715,7 +715,7 @@ iframe.video{
 
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1290px) {
     body {
         .view_right{
             
