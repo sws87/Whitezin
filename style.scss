@@ -179,11 +179,12 @@ body{
             }*/
             
         
-                
+           
+            
             .column3_1{
                 margin: 35px 4% 4% 4%;
                 width: 28%;
-                min-width: 250px;
+                min-width: 200px;
                 position: relative;
                 
                 img{
@@ -195,7 +196,7 @@ body{
                 margin: 35px 4% 4% 0;
                 width: 28%;
                 
-                min-width: 250px;
+                min-width: 200px;
                 position: relative;
                 font-size: 0.6875em;
                 img{
@@ -205,7 +206,7 @@ body{
             .column3_2col{
                 margin: 35px 0 4% 0;
                 width: 59%;
-                min-width: 350px;
+                min-width: 300px;
                 position: relative;
                  
                 img{
@@ -215,7 +216,7 @@ body{
             .column3_3col{
                 margin: 35px 0 2% 3%;
                 width: 92%;
-                min-width: 350px;
+                min-width: 300px;
                 position: relative;
                  
                 img{
@@ -226,7 +227,7 @@ body{
             .column3_4{
                 margin: 35px 0 2% 4%;
                 width: 76%;
-                min-width: 350px;
+                min-width: 300px;
                 position: relative;
                  
                 img{
@@ -236,7 +237,7 @@ body{
             .readmore{
                 margin: 0% 0 2% 4%;
                 width: 76%;
-                min-width: 350px;
+                min-width: 300px;
                 position: relative;
                  
                 img{
@@ -251,11 +252,14 @@ body{
             }
             
             #whitezin_info{
+                margin: 35px 4% 4% 4%;
+                width: 28%;
+                min-width: 200px;
+                position: relative;
                 align-self: flex-end;
                 min-width: 168px;
             }
-            
-            
+           
            
 
        }
@@ -632,6 +636,43 @@ iframe.video{
         }
         .read{
             margin-top: 1%;
+        }
+        
+        
+        #view_left{
+            .column3{
+                .column3_1{
+                    margin: 35px 0% 4% 4%;
+                    width: 44%;
+                    min-width: 250px;
+                    position: relative;
+
+                    img{
+                        width: 100%;
+                    }
+
+                }
+                .column3_2{
+                    margin: 35px 0% 4% 4%;
+                    width: 44%;
+
+                    min-width: 250px;
+                    position: relative;
+                    font-size: 0.6875em;
+                    img{
+                        width: 100%;
+                    }
+                }
+                #whitezin_info{
+                    margin: 35px 4% 4% 4%;
+                    width: 28%;
+                    min-width: 200px;
+                    position: relative;
+                    align-self: flex-end;
+                    min-width: 168px;
+                }
+           
+            }
         }
         
         
