@@ -78,7 +78,7 @@ body {
 .vertical_line {
   float: left;
   width: 2px;
-  height: 100%;
+  height: 101%;
   background-color: black; }
 
 #view_left {
